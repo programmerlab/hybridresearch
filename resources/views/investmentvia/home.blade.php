@@ -188,36 +188,7 @@ height:680px;
   </div>
 </div> -->
 
- <script> 
-
-      $(document).ready(function(){
-        setTimeout(function(){ 
-            $(".group3").colorbox({open: true,rel:'group3', transition:"none", width:"50%", height:"100%"}).fadeIn(2000); 
-        },2000);
-      });
-    </script>
-<!--Header-->
- <!-- Sliding div starts here -->
-           
-			<div id="slider" style="right:-342px;">
-        			<div id="sidebar" onclick="open_panel()"><img src="{{asset('public/assets/images/contact.png')}}"></div>
-        			<div id="header">
-                        {!! Form::open(['url' => url('contact'), 'method' => 'post']) !!}
-          
-        			<h2 style="font-size: 23px;font-weight: 900;color: #e22004;">Contact Form</h2>
-        			
-        			<input name="name" type="text" value=""  placeholder="Your Name" required="">
-        			<input name="email" type="text" value="" placeholder="Your Email" required="">
-                    <input name="mobile" type="text" value="" placeholder="Your Contact Number" required="">
-        			
-        			<textarea name="comments">Message</textarea>
-        			<button type="submit" style="background: #f39c12;" class="btn">Send Message</button>
-                    {!! Form::close()!!}   
-    			</div>
-			</div>
-         
-		<!-- Sliding div ends here -->
-
+  
 <!--Slider-->
 <section class="rev_slider_wrapper text-center" style="width:100%; position: fixed">            
 <!-- START REVOLUTION SLIDER 5.0 auto mode -->
@@ -269,8 +240,8 @@ News and Technical & Fundamental Analysis
                     <a href="{{$twitter_url->field_value or '#'}}"  target="_blank"><i class="fa fa-twitter"></i></a>
                      <a href="{{$linkedin_url->field_value or '#'}}"  target="_blank"><i class="fa fa-linkedin"></i></a></span></p>
             </div>
-            <div class="live-btn">
-                <p>  <a href="https://easebuzz.in/pay/hybridresearch" target="_blank"><img src="{{ asset('storage/assets/images/pay-online.png')}}"></a>  
+           <!--  <div class="live-btn">
+                <p>  <a href="https://easebuzz.in/pay/hybridresearch" target="_blank"><img src="{{ asset('storage/assets/images/pay-online.png')}}"></a>  --> 
 
                 
                     <!-- a href="https://www.researchinfotech.co.in/checkOutEBS/payment-online?amount=1000" target="_blank"><img src="{{ asset('storage/assets/images/pay-online.png')}}"></a>  
@@ -278,9 +249,9 @@ News and Technical & Fundamental Analysis
                       <a href="https://www.instamojo.com/@researchinfotech1788/" rel="im-checkout" data-behaviour="remote" data-style="light" data-text="Checkout With Instamojo"></a>  --> 
 
 
-                    
+                <!--     
                 </p>
-            </div>
+            </div> -->
         </div>
         <!-- Large modal -->
 
@@ -419,36 +390,12 @@ Commodity & Bullion Market.</p>
         <div class="item">
           
           <p class="review_text">I am quite impressed with their services. I like their strategies & resistance, support levels. With this I am able to earn more profit with less fund.</p>
-          <h4>D.K bansal</h4> 
-        </div>
-        <div class="item">
-          
-          <p class="review_text">I totally and blindly follow Research infotech  team for my trade in Stock Market because I know they will not let down me and always be there for me for support and efforts with their brilliant team. I wish them all the success for the future</p>
-          <h4>Bala subramanya swamy</h4>
-         
-        </div>
-        <div class="item">
-          
-          <p class="review_text">Myself virendra pratap singh, client of research infotech  from past 2 months. I’m a new trader with very less knowledge about share market but want to trade and earn more from this market. Assent team gives me what I want from their excellent core Research and Sales team support. I’m so happy with their contribution to my success and now i give there to all my friends those who want to trade in this market. </p>
-          <h4>Virendra pratap singh</h4> 
-        </div>
-        <div class="item">
-          
-          <p class="review_text">You guys are doing great job, I had a profitable trade during last 9 months without fail. Your option strategy service is excellent; I wanted to try out your BTST Calls. Special thanks to ankit  for assisting me as always! <br>
-I am an intraday trader in Stock Cash and Stock Futures. Earlier I was skeptical about stock tips service. But one day I heard about this stock market advisory providing intraday stock tips. I just visited website and filled out stock tips free trial form for intraday trading tips. And what I got was maximum returns ever.
-</p>
-          <h4>Kuwar singh rathore</h4>
-          
-        </div>
-        <div class="item">
-          
-          <p class="review_text">Thank you very much for considering my request for permitting to make part payment 60% , (Rs8000).This kind of gesture towards retired people like me gives an oppertunity to generate income and gives a feeling of alive or else others would treat us as deadwood.I would make payment as soon activates my F & O segments.</p>
-          <h4>Nand kishore pawar</h4> 
+          <h4>kandy</h4> 
         </div>
         <div class="item">
           
           <p class="review_text">I am very happy with their calls & proper follow ups. My experience with Research Infotech is just amazing. I hope they will be able to always maintain their accuracy & services. </p>
-          <h4>Sriniwas naidu </h4>
+          <h4>Sanjay Rai</h4>
         </div>
        </div>
       </div>
@@ -457,7 +404,7 @@ I am an intraday trader in Stock Cash and Stock Futures. Earlier I was skeptical
 </section>
 <!--Customers Review-->
 
-<div id="counter" class=" padding">
+<!-- <div id="counter" class=" padding">
   <div class="container">
     <h2 class="hidden">hidden</h2>
     <div class="row number-counters">
@@ -483,7 +430,7 @@ I am an intraday trader in Stock Cash and Stock Futures. Earlier I was skeptical
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <!--Paralax -->
 <div id="counter" class="counter2">
