@@ -92,6 +92,8 @@
 
 
  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="{{ asset('public/jquery.colorbox.js')}}"></script>
 <script src="{{ asset('public/assets/js/bootstrap.min.js')}}"></script>
 <script src="{{ asset('public/assets/js/bootsnav.js')}}"></script>
 <script src="{{ asset('public/assets/js/jquery.appear.js')}}"></script>
@@ -108,8 +110,8 @@
 <script src="{{ asset('public/assets/js/revolution.extension.slideanims.min.js')}}"></script>
 <script src="{{ asset('public/assets/js/revolution.extension.video.min.js')}}"></script>
 <script src="{{ asset('public/assets/js/wow.min.js')}}"></script>
-<script src="{{ asset('public/assets/js/functions.js')}}"></script>
-<script src="https://js.instamojo.com/v1/button.js"></script>
+<script src="{{ asset('public/assets/js/functions.js')}}"></script><!-- 
+<script src="https://js.instamojo.com/v1/button.js"></script> -->
 <script>
   $('.owl-carousel-2').owlCarousel({
     loop:true,

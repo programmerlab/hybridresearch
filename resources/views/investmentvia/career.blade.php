@@ -28,7 +28,7 @@
         <div class="address second">
           <i class="icon icon-envelope border_radius"></i>
           <h4>Email Us</h4>
-          <p><a href="mailto:{{$website_email}}">info@researchinfotech.co.in</a></p>
+          <p><a href="mailto:{{$website_email}}">info@hybridresearch.in</a></p>
         </div>
          
       </div>    
