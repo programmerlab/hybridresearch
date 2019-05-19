@@ -1,0 +1,12 @@
+ls
+ls
+ll
+la
+..
+ll
+ls
+exit
+ll
+ls
+ls
+exit
