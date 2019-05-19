@@ -34,7 +34,7 @@
         </li>
         <li><a href="{{url('pricing')}}">Pricing</a></li>
         <li><a href="{{url('free-trial')}}">Free Trial</a></li>
-        <li><a href="{{url('life-at-research-infotech')}}">Life@HR</a></li>
+        <li><a href="{{url('life-at-hybrid-research')}}">Life@HR</a></li>
         <li class="dropdown"><a href="javascript:" class="dropdown-toggle" data-toggle="dropdown">More</a>
             <ul class="dropdown-menu animated fadeOut" style="display: none; opacity: 1;">
                 

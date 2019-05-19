@@ -163,8 +163,8 @@ Route::match(['post','get'],'free-trial',[
                 ]
             ); 
  
- Route::match(['post','get'],'life-at-research-infotech',[
-                'as' => 'lifeAtResearchInfotech',
+ Route::match(['post','get'],'life-at-hybrid-research',[
+                'as' => 'lifeAtHybridResearch',
                 'uses' => 'HomeController@lifeAtResearchInfotech'
                 ]
             ); 

@@ -242,7 +242,7 @@ height:680px;
       
     </ul>
   </div><!-- END REVOLUTION SLIDER -->
-  <div class="over-content wow fadeInUp" data-wow-delay="500ms"">
+  <div class="over-content wow fadeInUp" data-wow-delay="100ms"">
             <h3 class="banner-heading">
                 Favourable Business Practices Sustainable Profits.
             </h3>
